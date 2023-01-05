@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkgray;
+}
+.top-nav {
+    overflow: hidden;
+    background-color: darkcyan;
+    margin: 0;
+    padding: 0;
+}
+.top-nav a {
+    text-decoration: none;
+    height: 3%;
+    font-weight: 700;
+}
+.top-nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10px 10%;
+}
+.top-nav > ul > li > a {
+    margin-left: 0;
+    padding: 30px 30%;
+    background: darkcyan;
+    text-align: center;
+    color: black;
+}
+.top-nav > ul > li > a:hover {
+    background-color: darkblue;
+    color: white;
+}
+.top-nav > ul > li {
+    float: left;
+    width: 10%;
+}
+.hero-text {
+    text-align: center;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-size: 70px;
+}
+.hero-text2 {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.description {
+    margin: 0 10%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 150%;
+}
+.about {
+    display: flex;
+    font-size: 20px;
+    margin-top: 0;
+    padding-left: 200px;
+}
+.edu-h {
+    text-align: left;
+    font-weight: 700;
+}
+.edu {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 2%;
+    text-decoration: underline;
+}
+.intern {
+    text-align: left;
+    margin-left: 2%;
+}
+.intern > h3 {
+    text-decoration: underline;
+}
+.intern > ol > li {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.intern > ol > li > span {
+    text-decoration: underline;
+    padding-left: 10px;
+}
+.skills {
+    margin-left: 2%;
+    text-decoration: underline;
+    text-align: left;
+}
+.languages {
+    margin-left: 2%;
+    text-decoration: underline;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px; 
+}
+.head {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.contact > ul > li {
+    text-align: justify;
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 20%;
+    font-weight: bold;
+}
+@media screen and (max-width: 1023px){
+     .top-nav {
+        overflow: hidden;
+        background-color: black;
+     }
+     .top-nav > ul > li > a {
+        margin-left: 0;
+        padding: 30px 30%;
+        background: black;
+        text-align: center;
+        color: white;
+    }
+    .hero-text {
+        text-align: center;
+        margin: 5% 10%;
+        margin-bottom: 0;
+        color: black;
+        font-size: 70px;
+    }
+    .hero-text2 {
+        margin: 0 10%;
+        margin-top: 3%;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+    }
+    .description {
+        margin: 0 15%;
+        margin-top: 50px;
+    }
+    .about {
+        display: block;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-left: 100px;
+    }
+}
